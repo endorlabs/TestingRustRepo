@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, {}", hello_lib::get_hello());
+    println!("{}", hello_lib::get_hello_world());
 }
