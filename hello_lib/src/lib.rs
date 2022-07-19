@@ -1,5 +1,5 @@
-pub fn get_hello() -> String {
-    "world!".into()
+pub fn get_hello_world() -> String {
+    format!("Hello {}", world_lib::get_world())
 }
 
 
