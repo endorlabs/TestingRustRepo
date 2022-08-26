@@ -1,7 +1,10 @@
 pub fn get_hello_world() -> String {
-    format!("Hello {}", world_lib::get_world())
+    "Hello world!".into()
 }
 
+pub fn get_hello_world_with_dependency() -> String {
+    format!("Hello {}", world_lib::get_world())
+}
 
 #[cfg(test)]
 mod tests {
